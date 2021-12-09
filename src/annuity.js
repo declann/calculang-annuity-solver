@@ -160,7 +160,9 @@ const I = ({
 }) * a({
   i_in,
   term_in
-});
+}); // divide by 0 problem when i=0
+// this should be abstracted out to an annuities library
+
 const a = ({
   i_in,
   term_in
