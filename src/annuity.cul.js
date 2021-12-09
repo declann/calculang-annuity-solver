@@ -12,5 +12,5 @@ export const I$ = () => I$_in;
 export const P = () => (P$() ? P$() : I() / a()); // P(P$_in, I$_in)
 export const I = () => (I$() ? I$() : P() * a());
 
-export const a = () => (1 - Math.pow(v(), term())) / i(); // this should be a PV to work for variable i esp.
+export const a = () => (1 - Math.pow(v(), term())) / i(); // fut: this should be a PV to work for variable i esp.
 export const v = () => 1 / (1 + i());
