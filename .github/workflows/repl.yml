@@ -27,7 +27,7 @@ jobs:
       - name: Install modules (calculang-js)
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run build:annuity
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
